@@ -7,12 +7,15 @@ Each user has a unique userid, which is a simple string like alice, bob etc. Eac
 # Server Side
 After generating keys for each user, run the server. This will act to store and send the messages to the desired recipeint. 
 
-#javac Server.java, java Server [port]
+**javac Server.java**
+
+**java Server [port]**
 
 # Client Side
 Finally use the client to interract with the server and send your encrypted messages
 
-#javac Client.java
-#java Client [host] [port] [userID])
+**javac Client.java**
+
+**java Client [host] [port] [userID]**
 
 # Enjoy!
