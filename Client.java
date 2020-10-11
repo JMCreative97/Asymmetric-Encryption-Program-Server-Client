@@ -335,7 +335,7 @@ class Client {
 		}
 		
 		
-		private static String generateUseridHash(String userid) throws NoSuchAlgorithmException {
+		private static String generateUseridHash(String userid) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 			
 			MessageDigest md = MessageDigest.getInstance("SHA-256");
 			
