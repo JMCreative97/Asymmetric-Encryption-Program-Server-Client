@@ -130,7 +130,7 @@ class SocketServer extends Thread {
 	}
 	
     
-	public static String generateUseridHash(String userid) throws NoSuchAlgorithmException {
+	public static String generateUseridHash(String userid) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 		
 		MessageDigest md = MessageDigest.getInstance("SHA-256");
 		
